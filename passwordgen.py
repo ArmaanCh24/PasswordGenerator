@@ -1,5 +1,4 @@
 import string
-import random
 import secrets
 def genpass(length):
     lower=string.ascii_lowercase
