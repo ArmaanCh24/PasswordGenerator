@@ -17,6 +17,6 @@ def genpass(length):
     for _ in range(length):
         password.append(secrets.choice(char))
     return ''.join(password)
-inp=input("Enter the lenght of the password you want")
+inp=input("Enter the length of the password you want: ")
 len=int(inp)
 print(genpass(len))
